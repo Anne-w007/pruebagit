@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousito</title>
+    <link rel="stylesheet" href="style-forms.css">
+    <link rel="icon" href="favicon.ico.ico">
+</head>
+
+<body style="background-color: rgb(50, 70, 87); color: aliceblue; text-align: center;">
+    <header>
+        <h1>Forms</h1><br>
+        <audio src="pou comiendo completos.mp3" controls>pou comiendo</audio>
+    </header>
+    <form>
+        <p>
+            <label for="nombre">Enter your name:</label><br>
+            <input type="text" name="name" id="nombre" size="20" maxlength="10">
+        </p>
+        <p>
+            <label for="lastName">Enter your last name:</label><br>
+            <input type="text" name="lastName" id="lastName" size="20" maxlength="10">
+        </p>
+        <p>
+            <label for="contrasena">Enter your password:</label><br>
+            <input type="password" name="contrasena" id="contrasena" size="20" maxlength="20">
+        </p>
+        <h3>Indicate your gender</h3>
+        <p>
+            <input type="radio" name="genero" id="genero-hombre" value="Hombre">
+            <label for="genero-hombre">Male</label>
+        </p>
+        <p>
+            <input type="radio" name="genero" id="genero-mujer" value="Mujer">
+            <label for="genero-mujer">Female</label>
+        </p>
+        <h3>Available days</h3>
+        <p>
+            <input type="checkbox" name="dias" id="domingo" value="domingo">
+            <label for="domingo">Sunday</label><br>
+            <input type="checkbox" name="dias" id="lunes" value="lunes">
+            <label for="lunes">Monday</label><br>
+            <input type="checkbox" name="dias" id="martes" value="martes">
+            <label for="martes">Tuesday</label><br>
+            <input type="checkbox" name="dias" id="miercoles" value="miercoles">
+            <label for="miercoles">Wednesday</label><br>
+            <input type="checkbox" name="dias" id="jueves" value="jueves">
+            <label for="jueves">Thursday</label><br>
+            <input type="checkbox" name="dias" id="viernes" value="viernes">
+            <label for="viernes">Friday</label><br>
+            <input type="checkbox" name="dias" id="sabado" value="sabadp">
+            <label for="sabado">Saturday</label><br>
+        </p>
+        <p>
+            <label for="youremail">Your email:</label><br>
+            <input type="email" name="tuemail" id="tuemail" size="30" disabled>
+        </p>
+
+        <p>
+            <label for="url">Enter your web:</label><br>
+            <input type="url" name="url" id="url" placeholder="Ej: http://www.tusitio.com">
+        </p>
+        <p>
+            <label for="telefono">Enter your phone:</label><br>
+            <input type="tel" name="phone" id="telefono" required>
+        </p>
+        <p>
+            <label for="search">Search</label><br>
+            <input type="search" name="search" id="search" placeholder="Enter your search">
+        </p>
+        <p>
+            <label for="quantity-pro">Quantity products:</label><br>
+            <input type="number" name="quantity-pro" id="quantity-pro" min="1" max="20">
+        </p>
+        <p>
+            <label for="experi-infor">Informatic experience:</label><br>
+            <input type="range" name="experi-infor" id="experi-infor" min="1" max="10">
+        </p>
+        <p>
+            <label for="date-born">Date born:</label><br>
+            <input type="date" name="date-born" id="date-born">
+        </p>
+        <p>
+            <label for="delivery-time">Delivery time:</label><br>
+            <input type="time" name="delivery-time" id="delivery-time">
+        </p>
+        <p>
+            <label for="mycolor">What is your favorite color?</label><br>
+            <input type="color" name="mycolor" id="mycolor">
+        </p>
+        <p>
+            <label for="bio">Make your inquiry:</label><br>
+            <textarea name="bio" id="bio" cols="20" rows="3"></textarea>
+
+        </p>
+        <p>
+            <label for="estado">Select your state:</label><br>
+            <select name="estado" id="estado">
+                <option value="viudo">Viudo</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="soltero">Solter@</option>
+            </select>
+        </p>
+        <p>
+            <label for="publicity">How did you heard about us?</label><br>
+            <select name="publicidad" id="publicity">
+                <optgroup label="Online">
+                    <option value="social-media">Social Media</option>
+                    <option value="motors-search">Motors search</option>
+                </optgroup>
+                <optgroup label="Offline">
+                    <option value="newspaper">Newspaper</option>
+                    <option value="panels-publi">Panels publicitarys</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Sent your details">
+            <input type="reset" value="Delete details">
+        </p>
+
+
+    </form>
+    <div id="contenedor" style="background: #5f7e9b; border: 2px solid #000000; margin: 3px;">
+        <aside>
+            <h1>Information</h1>
+            <p> The curious cat wandered through the quiet streets of the old town, chasing shadows and sunbeams.
+                Meanwhile, the world kept turning, and somewhere far away, a storm was just beginning to form.</p>
+            <ul>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>
+            <small> &#169 All rights reserved</small>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

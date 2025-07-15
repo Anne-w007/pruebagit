@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 223, 220);
+}
+h1{
+    color: rgb(115, 64, 58);
+}
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+}
+.imagen {
+    margin-left: 40px;
+    max-width: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+;
+}
+.burrito.png {
+    width: 300px;
+    margin: 0 auto;
+}
+.ejemploDisplay{
+    background-color: rgb(211, 79, 106);
+    display: flex;
+    justify-content: space-between;
+}

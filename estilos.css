@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(96, 199, 220);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+h1{
+    color:rgb(61, 81, 181);
+    place-self: center;
+}
+h2{
+    color:rgb(185, 141, 226);
+    place-self: center;
+}
+h3{
+    color:aquamarine;
+
+}
+h4{
+    color:coral;
+}
+h5{
+    color:darksalmon;
+}
+h6{
+    color:mediumpurple;
+}
